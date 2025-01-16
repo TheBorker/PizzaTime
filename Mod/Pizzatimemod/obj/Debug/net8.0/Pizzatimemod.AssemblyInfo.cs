@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pizzatimemod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6201396059fe579cce7dcab736f58a9e8e4b3e58")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+245272f1fa4eba835571a889aff121b14273dc46")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pizzatimemod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pizzatimemod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

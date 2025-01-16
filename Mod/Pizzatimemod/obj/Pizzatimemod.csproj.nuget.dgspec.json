@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rowan\\source\\repos\\Pizzatimemod\\Pizzatimemod\\Pizzatimemod.csproj": {}
+    "D:\\Repos\\PizzaTime\\Mod\\Pizzatimemod\\Pizzatimemod.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rowan\\source\\repos\\Pizzatimemod\\Pizzatimemod\\Pizzatimemod.csproj": {
+    "D:\\Repos\\PizzaTime\\Mod\\Pizzatimemod\\Pizzatimemod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rowan\\source\\repos\\Pizzatimemod\\Pizzatimemod\\Pizzatimemod.csproj",
+        "projectUniqueName": "D:\\Repos\\PizzaTime\\Mod\\Pizzatimemod\\Pizzatimemod.csproj",
         "projectName": "Pizzatimemod",
-        "projectPath": "C:\\Users\\rowan\\source\\repos\\Pizzatimemod\\Pizzatimemod\\Pizzatimemod.csproj",
+        "projectPath": "D:\\Repos\\PizzaTime\\Mod\\Pizzatimemod\\Pizzatimemod.csproj",
         "packagesPath": "C:\\Users\\rowan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rowan\\source\\repos\\Pizzatimemod\\Pizzatimemod\\obj\\",
+        "outputPath": "D:\\Repos\\PizzaTime\\Mod\\Pizzatimemod\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\visualstudioshared\\NuGetPackages"
