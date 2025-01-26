@@ -10,37 +10,38 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c30496d6ae6d6f907456e10a94e01ec6, type: 3}
-  m_Name: PillarJohn
+  m_Name: PillarJohnItem
   m_EditorClassIdentifier: 
-  itemId: 69
-  itemName: PillarJohn
+  itemId: 0
+  itemName: Pillar John
   spawnPositionTypes: []
   twoHanded: 0
   twoHandedAnimation: 0
   disableHandsOnWall: 0
   canBeGrabbedBeforeGameStart: 0
-  weight: 1
-  itemIsTrigger: 1
+  weight: 1.1
+  itemIsTrigger: 0
   holdButtonUse: 0
   itemSpawnsOnGround: 1
   isConductiveMetal: 0
   isScrap: 1
-  creditsWorth: 0
+  creditsWorth: 50
   lockedInDemo: 0
   highestSalePercentage: 80
-  maxValue: 0
-  minValue: 0
-  spawnPrefab: {fileID: 0}
+  maxValue: 120
+  minValue: 120
+  spawnPrefab: {fileID: 2237028726902500875, guid: c3e798dee9f16914eb772bbc679037fd,
+    type: 3}
   requiresBattery: 1
   batteryUsage: 15
   automaticallySetUsingPower: 1
-  itemIcon: {fileID: 0}
+  itemIcon: {fileID: 21300000, guid: 77e719e77a638c347868160ef0dd9814, type: 3}
   grabAnim: 
   useAnim: 
   pocketAnim: 
   throwAnim: 
   grabAnimationTime: 0
-  grabSFX: {fileID: 0}
+  grabSFX: {fileID: 8300000, guid: 9e8b4c713d4c5344b8cbd8630827cd45, type: 3}
   dropSFX: {fileID: 0}
   pocketSFX: {fileID: 0}
   throwSFX: {fileID: 0}
