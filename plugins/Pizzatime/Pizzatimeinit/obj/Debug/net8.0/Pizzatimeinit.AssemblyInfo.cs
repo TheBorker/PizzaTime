@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pizzatimeinit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c975527fe5af3bb73ed5b2a61603daf3481a9320")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+707cbf8751ff41a066ae09fbe0b86271dd85864a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pizzatimeinit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pizzatimeinit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

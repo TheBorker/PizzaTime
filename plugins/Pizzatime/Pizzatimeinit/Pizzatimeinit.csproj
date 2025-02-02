@@ -40,9 +40,6 @@
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\..\..\UnityEditor\2022.3.9f1\Editor\Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\..\..\..\SteamLibrary\steamapps\common\Lethal Company\Lethal Company_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>
