@@ -12,14 +12,22 @@ using LethalLib.Modules;
 using UnityEngine;
 
 
+
 namespace PillarJohnscript
 {
     [BepInPlugin("com.pillarjohn.pillarjohncore", "PillarJohnCore", "1.0.0")]
-    public class PillarJohnCore : BaseUnityPlugin 
+    [BepInDependency("evaisa.lethallib", BepInDependency.DependencyFlags.HardDependency)]
+    public class PillarJohnCore : BaseUnityPlugin
     {
         private readonly Harmony harmony = new Harmony("com.pillarjohn.pillarjohncore");
         private static PillarJohnCore instance;
         internal ManualLogSource nls;
+
+
+        public static bool PizzaTime = false;
+        
+
+
         void Awake()
         {
             instance = this;
@@ -39,14 +47,29 @@ namespace PillarJohnscript
 
             Item pillarjohn = bundle.LoadAsset<Item>("Assets/PillarJohnItem.asset");
             NetworkPrefabs.RegisterNetworkPrefab(pillarjohn.spawnPrefab);
-            // this is for the empty diagetic mixer group in the asset bundle, and it generally fixes sound issues
+
+          
+
             Utilities.FixMixerGroups(pillarjohn.spawnPrefab);
+            // this is for the empty diagetic mixer group in the asset bundle, and it generally fixes sound issues
             Items.RegisterScrap(pillarjohn,1000,Levels.LevelTypes.All);
+            
+           
+
+          
+
+            // Player Movement Changes
+
+            
             // Harmony patching
             harmony.PatchAll(typeof(PillarJohnCore));
+
+           
+
+
         }
-        
+
     }
 }
-// Cleanup names later this is horrible
+
 
