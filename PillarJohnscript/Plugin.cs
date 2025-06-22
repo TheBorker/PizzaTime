@@ -53,14 +53,7 @@ namespace PillarJohnscript
             Utilities.FixMixerGroups(pillarjohn.spawnPrefab);
             // this is for the empty diagetic mixer group in the asset bundle, and it generally fixes sound issues
             Items.RegisterScrap(pillarjohn,1000,Levels.LevelTypes.All);
-            
            
-
-          
-
-            // Player Movement Changes
-
-            
             // Harmony patching
             harmony.PatchAll(typeof(PillarJohnCore));
 
