@@ -1,11 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
+using JetBrains.Annotations;
+using LethalLib.Modules;
+using UnityEngine;
 
 
 namespace PillarJohnscript
@@ -24,9 +28,22 @@ namespace PillarJohnscript
             // Initialize the logger
             nls = BepInEx.Logging.Logger.CreateLogSource("PillarJohnCore");
             nls.LogInfo("Logger initialized successfully, Pillar John is watching...");
-            // Apply Harmony patches
+
+            // Asset directory setup
+            string assetDir = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location), "PillarJohn");
+            AssetBundle bundle = AssetBundle.LoadFromFile(assetDir);
+
+            // Item Setup
+
+            Item pillarjohn = bundle.LoadAsset<Item>("Assets/PillarJohnItem.asset");
+            NetworkPrefabs.RegisterNetworkPrefab(pillarjohn.spawnPrefab);
+            // this is for the empty diagetic mixer group in the asset bundle, and it generally fixes sound issues
+            Utilities.FixMixerGroups(pillarjohn.spawnPrefab);
+            Items.RegisterScrap(pillarjohn,1000,Levels.LevelTypes.All);
+            // Harmony patching
             harmony.PatchAll(typeof(PillarJohnCore));
         }
         
     }
 }
+// Cleanup names later this is horrible
