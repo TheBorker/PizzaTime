@@ -31,7 +31,7 @@ namespace PillarJohnscript
 
             // Asset directory setup
 
-            string assetDir = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location), "pillarjohnbundle");
+            string assetDir = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location), "pillarjohnassetbundle");
             
             AssetBundle bundle = AssetBundle.LoadFromFile(assetDir);
 
@@ -49,3 +49,4 @@ namespace PillarJohnscript
     }
 }
 // Cleanup names later this is horrible
+
