@@ -30,7 +30,9 @@ namespace PillarJohnscript
             nls.LogInfo("Logger initialized successfully, Pillar John is watching...");
 
             // Asset directory setup
-            string assetDir = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location), "PillarJohn");
+
+            string assetDir = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location), "pillarjohnbundle");
+            
             AssetBundle bundle = AssetBundle.LoadFromFile(assetDir);
 
             // Item Setup
