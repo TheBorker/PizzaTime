@@ -111,3 +111,5 @@ D:\Repos\Pizzatime\PizzaTime\PillarJohnscript\bin\Debug\MonoMod.Utils.xml
 D:\Repos\Pizzatime\PizzaTime\PillarJohnscript\bin\Debug\MonoMod.RuntimeDetour.xml
 D:\Repos\Pizzatime\PizzaTime\PillarJohnscript\obj\Debug\PillarJo.6680CAA4.Up2Date
 D:\Repos\Pizzatime\PizzaTime\PillarJohnscript\bin\Debug\LethalLib.dll
+D:\Repos\Pizzatime\PizzaTime\PillarJohnscript\bin\Debug\BepInEx.Harmony.dll
+D:\Repos\Pizzatime\PizzaTime\PillarJohnscript\bin\Debug\BepInEx.Harmony.xml

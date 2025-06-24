@@ -4,19 +4,25 @@ using UnityEngine;
 using BepInEx;
 using LethalLib.Modules;
 using GameNetcodeStuff;
+using PillarJohnscript;
 
 [HarmonyPatch(typeof(GrabbableObject), "GrabItem")]
 public class GrabItemPatch
 {
-	static void Postfix(GrabbableObject __instance, PlayerControllerB grabber)
+    static void Postfix(GrabbableObject __instance, PlayerControllerB grabber)
     {
-        if (__instance.name == "PillarJohnItem")
+        if (__instance.itemProperties.itemName == "PillarJohnRoot(Clone)")
         {
-            // Check if the player is holding the Pillar John item
-            if (grabber.GetHeldItem() != null && grabber.GetHeldItem().name == "PillarJohnItem")
             {
-                // Set PizzaTime to true when the item is grabbed
-                PillarJohnCore.PizzaTime = true;
-                Debug.Log("Pillar John has been grabbed! Pizza Time is now active.");
+                // Check if the player is holding the Pillar John item
+                Item heldItem = PlayerUtils.GetHeldItem(grabber);
+                if (heldItem != null && heldItem.name == "PillarJohnItem")
+                {
+                    // Trigger pizza time
+                    PillarJohnCore.PizzaTime = true;
+                    Debug.Log("Pizza Time has been triggered!");
+                }
             }
         }
+    }
+}

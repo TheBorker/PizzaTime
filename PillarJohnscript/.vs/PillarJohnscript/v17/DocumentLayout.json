@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5BD5496E-8579-4008-AAFF-7811E46F80F9}|PillarJohnscript.csproj|d:\\repos\\pizzatime\\pizzatime\\pillarjohnscript\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BD5496E-8579-4008-AAFF-7811E46F80F9}|PillarJohnscript.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD5496E-8579-4008-AAFF-7811E46F80F9}|PillarJohnscript.csproj|D:\\Repos\\Pizzatime\\PizzaTime\\PillarJohnscript\\gethelditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD5496E-8579-4008-AAFF-7811E46F80F9}|PillarJohnscript.csproj|solutionrelative:gethelditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +42,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetHeldItem.cs",
+              "DocumentMoniker": "D:\\Repos\\Pizzatime\\PizzaTime\\PillarJohnscript\\GetHeldItem.cs",
+              "RelativeDocumentMoniker": "GetHeldItem.cs",
+              "ToolTip": "D:\\Repos\\Pizzatime\\PizzaTime\\PillarJohnscript\\GetHeldItem.cs",
+              "RelativeToolTip": "GetHeldItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T22:21:38.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PizzaMovement.cs",
               "DocumentMoniker": "D:\\Repos\\Pizzatime\\PizzaTime\\PillarJohnscript\\PizzaMovement.cs",
               "RelativeDocumentMoniker": "PizzaMovement.cs",
               "ToolTip": "D:\\Repos\\Pizzatime\\PizzaTime\\PillarJohnscript\\PizzaMovement.cs",
               "RelativeToolTip": "PizzaMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T20:49:50.976Z",
               "EditorCaption": ""
@@ -57,7 +74,7 @@
               "RelativeDocumentMoniker": "Plugin.cs",
               "ToolTip": "D:\\Repos\\Pizzatime\\PizzaTime\\PillarJohnscript\\Plugin.cs",
               "RelativeToolTip": "Plugin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T19:27:00.026Z",
               "EditorCaption": ""
